@@ -6,7 +6,7 @@ if __name__ == "__main__":
     s2 = string.ascii_uppercase
     s3 = string.digits
     s4 = string.punctuation
-    plen = int(input("Enter password length\n")) #Todo1: Handle Gibberish
+    plen = int(input("Enter password length\n")) 
     s = []
     s.extend(list(s1))
     s.extend(list(s2))
